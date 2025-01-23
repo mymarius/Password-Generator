@@ -69,8 +69,7 @@ Here are some examples of how the Password Generator looks:
 3. Copy your password and use it for your accounts.
 
 Enjoy creating strong passwords for your security! 🔒
-```
----
+
 
 ### **Customizable Elements**
 1. **Images**: Replace the placeholder images (`https://cdn-icons-png.flaticon.com/512/7796/7796870.png`) with your actual screenshots or banners.
