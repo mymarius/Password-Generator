@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/7796/7796870.png" type="image/x-icon">
+    <title>Password Generator</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="password-generator-wrapper">
+        <div class="password-generator-container">
+            <div class="password-generator-card">
+                <div class="password-display-section">
+                    <input type="text" id="password-output" readonly placeholder="Şifreniz Oluşturulacak">
+                    <div class="password-actions">
+                        <button id="copy-btn" class="action-button copy-btn">
+                            <i class="fas fa-copy"></i>
+                        </button>
+                        <button id="generate-btn" class="action-button generate-btn">
+                            <i class="fas fa-sync-alt"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="password-strength-section">
+                    <div class="strength-bar-wrapper">
+                        <div class="strength-bar"></div>
+                    </div>
+                    <span class="strength-label"></span>
+                </div>
+
+                <div class="password-configuration">
+                    <div class="length-control">
+                        <div class="length-header">
+                            <label>Password Length</label>
+                            <span id="length-value">12</span>
+                        </div>
+                        <input type="range" id="length-slider" min="6" max="30" value="12">
+                    </div>
+
+                    <div class="character-type-selection">
+                        <div class="character-grid">
+                            <div class="character-option">
+                                <input type="checkbox" id="uppercase" checked>
+                                <label for="uppercase">Capital Letters</label>
+                            </div>
+                            <div class="character-option">
+                                <input type="checkbox" id="lowercase" checked>
+                                <label for="lowercase">Lowercase Letters</label>
+                            </div>
+                            <div class="character-option">
+                                <input type="checkbox" id="numbers" checked>
+                                <label for="numbers">Figures</label>
+                            </div>
+                            <div class="character-option">
+                                <input type="checkbox" id="symbols" checked>
+                                <label for="symbols">Symbols</label>
+                            </div>
+                            <div class="discord-section">
+                                <button id="discord-btn" class="discord-button">
+                                    <i class="fab fa-discord"></i> Discord Server
+                                </button>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+    <div class="background-effect"></div>
+    <div class="notification-container"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
