@@ -1,6 +1,6 @@
 # 🔐 Password Generator
 
-![Password Generator](https://via.placeholder.com/800x300?text=Password+Generator+Banner)
+![Password Generator](https://cdn-icons-png.flaticon.com/512/7796/7796870.png)
 
 This project is a **Password Generator** that allows you to create secure and strong passwords up to **30 characters** long. You can customize the password with the following features for stronger passwords:
 
@@ -33,7 +33,7 @@ To set up the Password Generator, follow these steps:
    cd password-generator
    ```
 
-3. Install the required dependencies (e.g., Python, Node.js, etc.).
+3. Install the required dependencies (e.g., HTML, JAVASCRIPT, etc.).
 
 
 
