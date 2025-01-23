@@ -43,6 +43,10 @@ This project is licensed under the **Creative Commons Zero v1.0 Universal (CC0 1
 
 ---
 
+## Demo web
+![Password Generator](https://password-generator1.glitch.me/)
+---
+
 ## 🌐 Support
 💬 **Join our Discord community for help and updates:**  
 🔗 [Join Our Discord](https://discord.gg/XJBBNx7R4k)  
@@ -55,7 +59,7 @@ If you like this project, don’t forget to ⭐ **star the repository** and shar
 Here are some examples of how the Password Generator looks:
 
 - **Password Generation Interface**  
-  ![Password Generation](https://password-generator1.glitch.me/)
+  ![Password Generation](https://cdn-icons-png.flaticon.com/512/7796/7796870.png)
 
 ---
 
