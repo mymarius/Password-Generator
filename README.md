@@ -44,7 +44,7 @@ This project is licensed under the **Creative Commons Zero v1.0 Universal (CC0 1
 ---
 
 ## Demo web
-![Password Generator](https://password-generator1.glitch.me/)
+[Password Generator](https://password-generator1.glitch.me/)
 ---
 
 ## 🌐 Support
